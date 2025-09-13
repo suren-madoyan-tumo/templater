@@ -1,0 +1,4 @@
+/* Rounded cards/buttons and subtle shadows */
+.rounded-4 { border-radius: 1rem !important; }
+.shadow-sm { box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05)!important; }
+main .row .bg-white { border: 1px solid rgba(0,0,0,.06); }
