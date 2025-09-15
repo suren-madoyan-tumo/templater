@@ -13,8 +13,6 @@ try {
 
 	if ( $useAI && defined( 'OPENAI_API_KEY' ) ) {
 		$json = call_openai( $form );
-	} elseif ( $useAI && defined( 'HF_API_KEY' ) ) {
-		$json = call_huggingface( $form );
 	} else {
 		// Fallback: basic rule-based content (no API)
 		$json = [
